@@ -1,1 +1,5 @@
-pydub, openai-whisper, edge-tts
+streamlit
+openai-whisper
+edge-tts
+deep-translator
+pydub
