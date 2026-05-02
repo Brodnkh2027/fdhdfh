@@ -93,7 +93,7 @@ else:
     with st.sidebar:
         st.header("⚙️ ការកំណត់")
         voice = st.selectbox("សំឡេង AI:", ["km-KH-PisethNeural", "km-KH-SreymomNeural"])
-        speed = st.slider("ល្បឿន:", -50, 50, 0)
+        speed = st.slider("ល្បឿន:", -100, 100, 0)
         if st.button("🔄 Make New (Clear Project)"):
             st.session_state.srt_data = ""
             st.rerun()
